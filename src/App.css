@@ -1,0 +1,14 @@
+body{
+  background-image: url('./assets/jimsonweedextanded.jpg');
+  background-size: cover; /* Covers the entire area */
+  background-position: center; /* Centers the image */
+  height: 100vh; /* Full height of the viewport */
+  width: 100%; 
+}
+
+.main_content{
+  width: 98%;      /* Set width to 100 pixels */
+  height: 100%;     /* Set height to 100 pixels */
+  background-color: #28282B; /* Optional: Set a background color */
+  border-radius: 10px;
+}
