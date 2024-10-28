@@ -1,0 +1,11 @@
+.main_profile_content {
+    display: flex;
+    flex-direction: row; /* Ensure content is arranged in a row */
+    align-items: center; /* Vertically center the items */
+    justify-content: flex-start; /* Align items to the left */
+    margin-bottom: 20px; /* Add space between each team member */
+}
+
+.text_profile_content {
+    margin-right: 10px; /* Space between text and image */
+}

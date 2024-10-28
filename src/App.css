@@ -11,4 +11,5 @@ body{
   height: 100%;     /* Set height to 100 pixels */
   background-color: #28282B; /* Optional: Set a background color */
   border-radius: 10px;
+  margin: 10px;
 }
