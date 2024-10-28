@@ -29,8 +29,8 @@ const theme = createTheme({
             paper: '#f5f5f5', // Paper background (e.g., cards)
         },
         text: {
-            primary: '#333333', // Primary text color
-            secondary: '#555555', // Secondary text color
+            primary: '#FAF9F6', // Primary text color
+            secondary: '#FAF9F6', // Secondary text color
         },
     },
 
@@ -80,6 +80,13 @@ const theme = createTheme({
 
     // Component style overrides
     components: {
+        MuiMenuItem: {
+            styleOverrides: {
+                root: {
+                    color: '#333333', // Set default color for all MenuItem
+                },
+            },
+        },
         MuiButton: {
             styleOverrides: {
                 root: {
